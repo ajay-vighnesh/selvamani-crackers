@@ -22,9 +22,9 @@ class Settings extends SettingsPage
             ->label('Global discount ')
             ->required(),
             
-            TextInput::make('min_order_value')
-            ->label('Min order value')
-            ->required(),
+            // TextInput::make('min_order_value')
+            // ->label('Min order value')
+            // ->required(),
 
             TextInput::make('starting_year')
             ->label('diwali sales starting year')

@@ -15,7 +15,7 @@ class EditOrder extends EditRecord
         return [
             // Actions\ViewAction::make(),
             Actions\DeleteAction::make(),
-            Actions\Action::make('print')->url(route('admin.orders.print', $this->record->id )),
+            // Actions\Action::make('print')->url(route('admin.orders.print', $this->record->id )),
             Actions\Action::make('download Pdf')->url(route('admin.orders.download', $this->record->id )),
         ];
     }

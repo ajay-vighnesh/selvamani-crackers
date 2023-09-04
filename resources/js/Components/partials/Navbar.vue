@@ -14,7 +14,8 @@ import { Link } from "@inertiajs/vue3";
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="menu_icon"></span>
+                            <!-- <span class="menu_icon"></span> -->
+                            <i class="fa fa-bars" aria-hidden="true" style = "font-size:24px; top: 27px; left: 0px; width: 33px;height: 33px; margin: 22px 0;"></i>
                         </button>
 
                         <div class="collapse navbar-collapse main-menu-item" id="navbarSupportedContent">

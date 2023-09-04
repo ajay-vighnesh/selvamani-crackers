@@ -20,7 +20,7 @@
                       <td valign="top" align="left" width="100" style="background-color:#ffffff">
                       <span style="text-decoration:underline;">Company Details</span>
                       <p style="font-size:14px;">Company Name : Pyro World Crackers</p>
-                      <p>Mobile Number : {{ $order->customer->mobile_number }}</p>
+                      <!-- <p>Mobile Number : {{ $order->customer->mobile_number }}</p> -->
 
                       
                       </td>

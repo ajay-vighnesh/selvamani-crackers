@@ -91,7 +91,7 @@ const form = useForm({
         <div class="col-12">
           <h2 class="contact-title">Contact Us</h2>
         </div>
-        <div class="col-lg-12">
+        <div class="col-lg-6">
           <form  method="POST" action="/contact-form">
             <input type="hidden" name="_token" :value="form.csrf">
             <div class="row">
@@ -128,6 +128,45 @@ const form = useForm({
             </div>
           </form>
         </div>
+        <!--  -->
+        <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="info-box" style="text-align: center; padding: 30px 0 32px 0;">
+                                    <i class="bx bx-map"></i>
+                                    <i class="fa fa-location-dot"></i>
+                                    <i class="fa fa-map-marker" aria-hidden="true" style="font-size:24px"></i>
+
+                                    <h3 class="contact-title">Our Address</h3>
+                                    <p>{{company_address}}</p>
+                                </div>
+                            </div>
+                            <!-- <div class="col-md-6">
+                                <div class="info-box mt-4">
+                                    <i class="bx bx-envelope"></i>
+                                    <h3>Email Us</h3>
+                                    <p>
+                                        info@example.com<br />contact@example.com
+                                    </p>
+                                </div>
+                            </div> -->
+                            <div class="col-md-12">
+                                <div class="info-box mt-2" style="text-align: center; padding: 30px 0 32px 0;">
+                                  <!-- <i class="fa fa-phone" style="font-size:24px"></i> -->
+                                  <i class="fa fa-phone fa-rotate-90" style="font-size:24px"></i>
+
+                                    <h3 class="contact-title ">Call Us</h3>
+                                    <p>
+
+                                        +91 {{ mobile_number_1 }}<br />
+                                        
+                                        +91 {{ mobile_number_2 }}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        <!--  -->
         
       </div>
     </div>

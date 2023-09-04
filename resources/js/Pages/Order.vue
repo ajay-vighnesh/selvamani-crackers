@@ -132,7 +132,7 @@ const newOrderPlaced = () => {
     <!-- running scroll (content) -->
     <div class="container mx-auto"> 
            <marquee behavior="scroll" scrollamount="5" direction="" class="marqee mt-2"
-            style="font-size: large; font-family: 'Times New Roman', Times, serif; color:red">To Order Confirm: {{ mobile_number_1 }},{{ mobile_number_2 }},{{ mobile_number_3 }}</marquee>
+            style="font-size: large; font-family: 'Times New Roman', Times, serif; color:red">To Order Confirm: {{ mobile_number_1 }}, {{ mobile_number_2 }} </marquee>
         </div>
 
     <HomeLayout :company_address=company_address :mobile_number_3=mobile_number_3>
@@ -142,15 +142,15 @@ const newOrderPlaced = () => {
             <div class="carousel-inner" >
               <div class="carousel-item active" >
                 <!-- <img v-bind:src="'storage/' +slider.image " class="d-block w-100" /> -->
-                <img src="/img/banner/front_banner_2.jpg" class="d-block w-100" alt="...">
+                <img src="/img/banner/front_banner_4.jpg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item" >
                 <img src="/img/banner/front_banner_3.jpg" class="d-block w-100" alt="...">
 
               </div>
-               <div class="carousel-item">
+               <!-- <div class="carousel-item">
                 <img src="/img/banner/front_banner_4.jpg" class="d-block w-100" alt="...">
-              </div>
+              </div> -->
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
